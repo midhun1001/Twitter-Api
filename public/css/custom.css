@@ -1,0 +1,73 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Trocchi';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Trocchi'), url(https://fonts.gstatic.com/s/trocchi/v4/zU8UqWLazHMKfmXjWpWfBfY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Trocchi';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Trocchi'), url(https://fonts.gstatic.com/s/trocchi/v4/Ba8A3Nf2cGSBRP26ToKWMg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+body {
+  font-family: 'Trocchi', serif;
+  font-size: 15px !important;
+}
+header h1 {
+  text-align: center;
+
+}
+.btn {
+    border-radius: 0;
+}
+.nav-btn {
+  margin-top: 100px;
+}
+.box {
+  padding: 15px;
+}
+.card {
+  margin-bottom: 25px;
+  height: 250px;
+  overflow: auto;
+}
+.well {
+  border-radius: 0;
+}
+.card-box {
+  background: #e4e4e4;
+  padding: 15px;
+}
+.card-detail {
+  padding: 15px;
+  background: #e4e4e4;
+  margin-bottom: 0;
+  height: 250px;
+  overflow: auto;
+}
+.detail_tweet, .show-less {
+  margin-top: 15px;
+  width: 100%;
+}
+.over {
+    transform: rotateY(180deg);
+    transition: transform 1500ms ease;
+}
+
+.out {
+    transform: rotateY( -180deg );
+    transition: transform 150ms ease;
+}
+.show {
+  display: inline;
+}
+.fix-btm{
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+}
