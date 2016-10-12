@@ -46,7 +46,7 @@ header h1 {
 .card-detail {
   padding: 15px;
   background: #e4e4e4;
-  margin-bottom: 0;
+  margin-bottom: 25px;
   height: 250px;
   overflow: auto;
 }
