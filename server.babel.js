@@ -16,10 +16,10 @@ mongoose.connection.on('error', function (err) {
 mongoose.connect('mongodb://localhost/trialtweet2');
 //Initialize Twitter API
 var client = new Twitter({
-  consumer_key: 'jow7ZGpsDN2PSD9haDp2sjnSl',
-  consumer_secret: 'LDWIH450Ni8jyptGbdCNtaiUSdw5b9xIkr8YGMhfnFjPWDMN6I',
-  access_token_key: '735038888939397120-fggBEHkRycskThseD7cythmu1yPtVTM',
-  access_token_secret: 'DZJvNIBNzJJfR8opJAD6yNcJZrb34vSneTnFfHbqdUFiI'
+  consumer_key: '',
+  consumer_secret: '',
+  access_token_key: '',
+  access_token_secret: ''
 });
 
 //Fetch Tweets with keyword Cricket
